@@ -1,8 +1,29 @@
+body{
+    background-color: black;
+}
 header{
-    display: flex;
-    justify-content: center;
+    background: rgba(0, 0, 0, 0.5); /* El último valor (0.5) controla la opacidad (0 es completamente transparente, 1 es completamente opaco) */
+    padding: 20px;
+    color: white;
+    text-align: center;
 }
 .imagen{
     display: flex;
-    justify-content:right;
+    justify-content:center;
+    
+    position: fixed; /* Mantiene la imagen fija en la ventana del navegador */
+    top: 0;
+    left: 0;
+    width: 80%; /* Ocupa el 100% del ancho de la pantalla */
+    height: 80%; /* Ocupa el 100% de la altura de la pantalla */
+    object-fit: cover; /* Ajusta la imagen para llenar todo el espacio, manteniendo la proporción */
+    z-index: -1; /* Coloca la imagen detrás de otros elementos en la página */
+    
+}
+.logo{  
+    background-color: rgb(red, green, blue,0.5);
+    display: flex;
+    width: 200px;
+    height: 200px;
+    
 }
