@@ -1,6 +1,10 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Crimson+Text&family=Playfair+Display&family=Raleway:wght@100&family=Tai+Heritage+Pro&display=swap');
-body{
+*{
+font-family:'Cormorant Garamond';
+color:white
+}
+  body{
     background-color: rgb(0, 0, 0);
     margin: 0%;
 }
@@ -25,7 +29,7 @@ header{
     align-items: end;
 }
 h1{
-    font-family:'Cormorant Garamond' ;
+    /*font-family:'Cormorant Garamond' ;*/
     background-color: rgb(0, 0, 0,0.5);
     width: 650px;
     color: rgb(255, 255, 255);   
@@ -66,6 +70,7 @@ ul{
     gap: 10px;
 }
 .listaprincipal{
+    text-decoration: none;
     background-color: rgba(0, 0, 0, 0.4);
     /*display: inline;*/
     padding: 14px 25px;  
@@ -80,7 +85,44 @@ ul{
     padding: 5px;   
 }
 h2{
-    font-family:'Cormorant Garamond';
+    justify-content: center;
+    /*font-family:'Cormorant Garamond';*/
     text-transform: uppercase;
     color: white;
+}
+.tarjeta{
+    width: 400px;
+    height: 420px;
+}
+.img_card{
+    width: 100%;
+    height: 100%;
+}
+.tarjetas{
+    display: flex;
+    gap: 20px;
+}
+.nuestrotrabajo{
+    background-image: url();
+    background-size:cover;
+    background-position: 50%;
+    /*background-attachment: fixed;*/
+    margin: 10px;
+}
+h2{
+   
+    padding: 40px;
+    text-decoration:underline;
+}
+.div_h2{
+    display: flex;
+    justify-content: left;
+}
+.product{
+    font-size: 1.6em;
+    align-content: center;
+}
+.container{
+    display: table;
+    max-width: 450px;
 }
