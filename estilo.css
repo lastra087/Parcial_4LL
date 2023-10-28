@@ -6,10 +6,11 @@ color:white
 }
   body{
     background-color: rgb(0, 0, 0);
-    margin: 0%;
+    margin: 5px;
 }
 header{
     display: flex;
+    height: 160px;
     /*align-items: center;*/
     background: rgba(241, 141, 42, 0.35); /* El último valor (0.5) controla la opacidad (0 es completamente transparente, 1 es completamente opaco) */
     /*width: 100%;*/
@@ -35,8 +36,7 @@ h1{
     color: rgb(255, 255, 255);   
     font-size: 2em;
     text-transform: uppercase;
-    text-align: center;
-    
+    text-align: center;    
     padding: 10px 10px  ;
 }
 .imagen{
@@ -49,8 +49,7 @@ h1{
     height: 100%; /* Ocupa el 100% de la altura de la pantalla */
     object-fit: cover; /* Ajusta la imagen para llenar todo el espacio, manteniendo la proporción */
     z-index: -1;  /*Coloca la imagen detrás de otros elementos en la página */
-    
-}
+    }
 .logo{  
     /*background-color: rgb(red, green, blue,0.5);*/
     /*display: inline;*/
@@ -68,6 +67,9 @@ ul{
     justify-content: right;
     list-style-type:none;
     gap: 10px;
+}
+a{
+    text-decoration: none;
 }
 .listaprincipal{
     text-decoration: none;
@@ -120,9 +122,26 @@ h2{
 }
 .product{
     font-size: 1.6em;
-    align-content: center;
 }
+
 .container{
-    display: table;
-    max-width: 450px;
+    display: table; 
+    width: 600px;
+    height: 600px;
+    background-color: black;
+}
+.active{
+    /* max-width: 100%;
+    max-height: 100%; */
+}
+.carousel{
+    /* width: 600px;
+    height: 600px; */
+}
+.carousel-inner{
+    width: 550px;
+}
+.imagenes{
+    width: 550px;
+    height: 600px;
 }
