@@ -11,15 +11,12 @@ color:white
 header{
     display: flex;
     height: 160px;
-    /*align-items: center;*/
     background: rgba(241, 141, 42, 0.35); /* El último valor (0.5) controla la opacidad (0 es completamente transparente, 1 es completamente opaco) */
-    /*width: 100%;*/
-    /*padding: 10px;*/
 }
 .inicio{
     background-image: url(./imagenes/josh-beech-tXJhAFVOHVk-unsplash.jpg);
     background-size:cover;
-    background-position: 50%;
+    /* background-position: 10px; */
     background-attachment: fixed;
 }
 .titulo{
@@ -29,40 +26,35 @@ header{
     justify-content: center;
     align-items: end;
 }
+.fuego{
+  background-image: url(./imagenes/rocio.gif);
+    background-size:cover;
+    /* background-position: 10px; */
+    background-attachment:fixed;
+} 
 h1{
     /*font-family:'Cormorant Garamond' ;*/
     background-color: rgb(0, 0, 0,0.5);
     width: 650px;
-    color: rgb(255, 255, 255);   
+    color: rgb(255, 255, 255);
     font-size: 2em;
     text-transform: uppercase;
-    text-align: center;    
+    text-align: center;
     padding: 10px 10px  ;
 }
-.imagen{
-    /*display: inline;*/
-    /*justify-content:center;*/
-    position: fixed; /* Mantiene la imagen fija en la ventana del navegador */
-    top: 0;
-    left: 0;
-    width: 100%; /* Ocupa el 100% del ancho de la pantalla */
-    height: 100%; /* Ocupa el 100% de la altura de la pantalla */
-    object-fit: cover; /* Ajusta la imagen para llenar todo el espacio, manteniendo la proporción */
-    z-index: -1;  /*Coloca la imagen detrás de otros elementos en la página */
-    }
-.logo{  
+.logo{
     /*background-color: rgb(red, green, blue,0.5);*/
     /*display: inline;*/
     width: 230px;
-    height: auto;  
-    padding: 10px 10px;  
+    height: auto;
+    padding: 10px 10px;
 }
 ul{
     width: 100%;
     align-items:center;
-    color: white;   
+    color: white;
     /*display: inline; */
-    display: flex;  
+    display: flex;
     font-size:12px;
     justify-content: right;
     list-style-type:none;
@@ -75,26 +67,30 @@ a{
     text-decoration: none;
     background-color: rgba(0, 0, 0, 0.4);
     /*display: inline;*/
-    padding: 14px 25px;  
+    padding: 14px 25px;
     /*justify-content: center;*/
     /*border-color: black;*/
     border-radius: 10px 10px;
     border: 1px solid white;
     margin: 2px;
 }
-.ancla{ 
+.ancla{
     font-size: 35px;
-    padding: 5px;   
+    padding: 5px;
 }
 h2{
-    justify-content: center;
-    /*font-family:'Cormorant Garamond';*/
+    /* justify-content: center; */
     text-transform: uppercase;
     color: white;
+    padding: 40px;
+    text-decoration:underline;
 }
 .tarjeta{
+    display: flex;
+    flex-direction: column;
     width: 400px;
     height: 420px;
+    align-items: center;
 }
 .img_card{
     width: 100%;
@@ -105,43 +101,34 @@ h2{
     gap: 20px;
 }
 .nuestrotrabajo{
-    background-image: url();
-    background-size:cover;
+    /* background-size:cover;
     background-position: 50%;
-    /*background-attachment: fixed;*/
-    margin: 10px;
-}
-h2{
-   
-    padding: 40px;
-    text-decoration:underline;
+    margin: 10px; */
 }
 .div_h2{
     display: flex;
-    justify-content: left;
+    justify-content: center;
 }
 .product{
     font-size: 1.6em;
 }
 
 .container{
-    display: table; 
-    width: 600px;
-    height: 600px;
+    display: table;
+    max-width: 575px;
+    max-width: 600px;
     background-color: black;
 }
-.active{
-    /* max-width: 100%;
-    max-height: 100%; */
-}
-.carousel{
-    /* width: 600px;
-    height: 600px; */
-}
-.carousel-inner{
-    width: 550px;
-}
 .imagenes{
-    width: 550px;
+    width: 575px;
     height: 600px;
+}
+.imagenNOEXISTEESTACLASEEENELHTML{ 
+position: fixed;  /* Mantiene la imagen fija en la ventana del navegador */
+top: 0;
+left: 0;
+width: 100%; /* Ocupa el 100% del ancho de la pantalla */
+height: 100%; /* Ocupa el 100% de la altura de la pantalla */
+object-fit: cover; /* Ajusta la imagen para llenar todo el espacio, manteniendo la proporción */
+z-index: -1;  /*Coloca la imagen detrás de otros elementos en la página */
 }
