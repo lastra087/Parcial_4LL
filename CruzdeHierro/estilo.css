@@ -1,0 +1,177 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Crimson+Text&family=Playfair+Display&family=Raleway:wght@100&family=Tai+Heritage+Pro&display=swap');
+*{
+font-family:'Cormorant Garamond';
+color:white
+}
+  body{
+    background-color: rgb(0, 0, 0);
+    margin: 5px;
+}
+header{
+    display: flex;
+    height: 160px;
+    background: rgba(241, 141, 42, 0.35); /* El último valor (0.5) controla la opacidad (0 es completamente transparente, 1 es completamente opaco) */
+}
+.inicio{
+    background-image: url(./imagenes/josh-beech-tXJhAFVOHVk-unsplash.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+}
+.titulo{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+} 
+h1{
+    /*font-family:'Cormorant Garamond' ;*/
+    background-color: rgb(0, 0, 0,0.5);
+    width: 650px;
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 10px  ;
+}
+.logo{
+    /*background-color: rgb(red, green, blue,0.5);*/
+    /*display: inline;*/
+    width: 230px;
+    height: auto;
+    padding: 10px 10px;
+}
+ul{
+    width: 100%;
+    align-items:center;
+    color: white;
+    /*display: inline; */
+    display: flex;
+    font-size:12px;
+    justify-content: right;
+    list-style-type:none;
+    gap: 10px;
+}
+a{
+    text-decoration: none;
+}
+.listaprincipal{
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.4);
+    /*display: inline;*/
+    padding: 14px 25px;
+    /*justify-content: center;*/
+    /*border-color: black;*/
+    border-radius: 10px 10px;
+    border: 1px solid white;
+    margin: 2px;
+}
+.ancla{
+    font-size: 35px;
+    padding: 5px;
+}
+.div_h2{
+    display: flex;
+    justify-content: center;
+    /* padding: 25px; */
+}
+h2{
+    /* justify-content: center; */
+    text-transform: uppercase;
+    color: white;
+    padding: 40px;
+    text-decoration:none;
+}
+#contactanos{
+    justify-content: left !important;
+    }
+.tarjetas{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.tarjeta{    
+    width: 500px;
+    height: auto; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+.img_card{
+    width:  100%;
+    height: 100%; 
+}
+.fuego{
+    background-image: url(./imagenes/rocio.gif);
+    background-size:cover;
+    background-attachment:fixed;
+}
+.nuestrotrabajo{
+    /* background-size:cover;
+    background-position: 50%;*/
+    padding: 50px;
+}
+.product{
+    font-size: 1.6em;
+}
+.container{
+    display: table;
+    max-width: 575px;
+    max-width: 600px;
+    background-color: black;
+}
+.imagenes{
+    width: 575px;
+    height: 600px;
+}
+.imagenNOEXISTEESTACLASEEENELHTML{ 
+position: fixed;  /* Mantiene la imagen fija en la ventana del navegador */
+top: 0;
+left: 0;
+width: 100%; /* Ocupa el 100% del ancho de la pantalla */
+height: 100%; /* Ocupa el 100% de la altura de la pantalla */
+object-fit: cover; /* Ajusta la imagen para llenar todo el espacio, manteniendo la proporción */
+z-index: -1;  /*Coloca la imagen detrás de otros elementos en la página */
+}
+/* .contactanos{
+    display: grid;
+    width: 600px;
+    flex-direction:column;  
+    gap: 20px;
+} */
+
+.consulta{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.botonenviar{
+    width: 150px;
+    background-color: rgb(0, 0, 0);
+}
+.etiqueta{
+   width: 100%;
+}
+input{  
+    background-color: black;
+}
+textarea{
+    background-color: black;
+}
+
+
+
+/* respuesta del chat gpt */
+/* .grupo{
+    display: flex;
+    align-items: center;    
+} */
+/* label{
+    width: 100px;
+   text-align: right;
+   margin-right: 10px;
+   } */
+/* input{
+    flex: 1;
+} */
