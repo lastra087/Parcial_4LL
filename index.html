@@ -127,12 +127,27 @@
               </div>
             </header>
         </section>
+      </main>
         <section>
           <div id="contactanos" class="div_h2">        
             <h2>Contactanos</h2>
-        </div>  
-        </section>
-    </main>
+        </div> 
+        <form action="contacto" class="contactanos">
+          <label class="etiqueta" for="Nombre">Nombre:
+            <input type="text" name="Nombre" id="Nombre" required>
+          </label>
+          <label class="etiqueta" for="email">e-mail:
+            <input type="email" name="email" id="Mail" required> 
+          </label>
+          <label class="etiqueta" for="telefono">Teléfono:
+            <input type="text" name="telefono" id="fono">
+          </label>
+          <label class="etiqueta" for="consulta">Dejanos tu consulta:
+            <textarea name="consulta" id="Consulta"  maxlength="500" minlength="5" placeholder="Dejanos tu consulta"></textarea>
+          </label> 
+          <input type="submit" name="" value="Enviar" class="botonenviar">
+        </form> 
+        </section>   
     <footer>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Duci
