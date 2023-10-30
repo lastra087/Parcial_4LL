@@ -21,7 +21,7 @@
                         <a href="#nuestrotrabajo">
                         <li class="listaprincipal">NUESTRO TRABAJO</li>
                         </a>
-                        <a href="#contactanos">
+                        <a href="#sec_contacto">
                         <li class="listaprincipal">CONTACTANOS</li>
                         </a>
                         <li class="listaprincipal">PREGUNTAS FRECUENTES</li>        
@@ -128,27 +128,38 @@
             </header>
         </section>
       </main>
-        <section>
+        <section id="sec_contacto"> 
+          <div class="espacio">
+          </div>
+          <div class="imgcontacto">
+            <img class="imagencont" src="./imagenes/fondo_contactos.jpg" alt="">
+          </div>
           <div id="contactanos" class="div_h2">        
             <h2>Contactanos</h2>
         </div> 
-        <form action="contacto" class="contactanos">
-          <label class="etiqueta" for="Nombre">Nombre:
-            <input type="text" name="Nombre" id="Nombre" required>
+        <form action="https://formspree.io/f/mrgwjwpq" method="post" class="consulta">
+          <label class="etiqueta" for="Nombre">
+            <span class="label-text">Nombre:</span>
+           <input type="text" name="Nombre" id="Nombre" required>
           </label>
-          <label class="etiqueta" for="email">e-mail:
-            <input type="email" name="email" id="Mail" required> 
+          <label class="etiqueta" for="email">
+            <span class="label-text">E-mail:</span>
+          <input type="email" name="email" id="Mail" required>
           </label>
-          <label class="etiqueta" for="telefono">Teléfono:
-            <input type="text" name="telefono" id="fono">
+          <label class="etiqueta" for="telefono">
+            <span class="label-text">Teléfono:</span>
+           <input type="text" name="telefono" id="fono">
           </label>
-          <label class="etiqueta" for="consulta">Dejanos tu consulta:
-            <textarea name="consulta" id="Consulta"  maxlength="500" minlength="5" placeholder="Dejanos tu consulta"></textarea>
+          <label class="etiqueta" for="consulta">
+            <span class="label-text">Dejanos tu consulta:</span>
+           <textarea name="consulta" id="Consulta"  maxlength="500" minlength="5" placeholder="Dejanos tu consulta"></textarea>
           </label> 
-          <input type="submit" name="" value="Enviar" class="botonenviar">
-        </form> 
+          <input class="botonenviar" type="submit" name="" value="Enviar">
+          </form>
         </section>   
     <footer>
+      <div class="espacio">
+      </div>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Duci
           mus, totam mollitia sequi iste sed quo atque quaerat incidunt placeat

@@ -83,9 +83,6 @@ h2{
     padding: 40px;
     text-decoration:none;
 }
-#contactanos{
-    justify-content: left !important;
-    }
 .tarjetas{
     display: flex;
     justify-content: space-between;
@@ -125,34 +122,92 @@ h2{
     width: 575px;
     height: 600px;
 }
-.imagenNOEXISTEESTACLASEEENELHTML{ 
-position: fixed;  /* Mantiene la imagen fija en la ventana del navegador */
-top: 0;
-left: 0;
-width: 100%; /* Ocupa el 100% del ancho de la pantalla */
-height: 100%; /* Ocupa el 100% de la altura de la pantalla */
-object-fit: cover; /* Ajusta la imagen para llenar todo el espacio, manteniendo la proporción */
-z-index: -1;  /*Coloca la imagen detrás de otros elementos en la página */
+
+
+.espacio{
+    background-color: black;
+    height: 20px;
+    width: 100%;
 }
-/* .contactanos{
-    display: grid;
-    width: 600px;
-    flex-direction:column;  
-    gap: 20px;
-} */
-.botonenviar{
-    width: 150px;
-    background-color: rgb(0, 0, 0);
+#contactanos{
+    justify-content: left !important;
 }
 .etiqueta{
-   width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 1.4em;
+    width: 800px;
+    padding: 5px;  
+    /* border-left: 2px solid white;
+    border-bottom: 2px solid white; */
 }
-input{
-    background-color: black;
+.label-text {
+    flex: 1; /* La primera columna ocupa todo el espacio disponible */   
+    text-align: left; /* Alinea el texto del label a la izquierda */
+}
+input {
+    background-color: black;    
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    color: white;
+    width: 800px;
+    flex: 1; /* La segunda columna ocupa todo el espacio disponible */
+    text-align: left; /* Alinea el input a la derecha */
 }
 textarea{
+    width: 398.5px; 
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    color: white;
     background-color: black;
 }
+.consulta{
+    width: 800px;
+    gap:20px 
+}
+.imgcontacto{
+    width: 100%;
+}
+.imagencont{
+    width: 100%;
+}
+.botonenviar{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    border: 2px solid white !important;
+    width: 200px;
+} 
+
+
+
+/* MIO */
+/* .consulta{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 550px;
+} */
+/* label{
+    font-size: 1.4em;
+    text-align: right;
+    align-self:flex-end;
+} */
+/* .botonenviar{
+    width: 150px;
+    background-color: rgb(0, 0, 0);
+    align-self:flex-end;
+} */
+/* .etiqueta{
+   width: 100%;
+} */
+/* input{  
+    width: 400px; 
+    background-color: black;
+} */
+/* textarea{
+    width: 300px; 
+    background-color: black;
+} */
 
 
 
